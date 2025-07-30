@@ -10,7 +10,7 @@ last_frame = None
 
 def generate_frames():
     global last_frame
-    camera_url = 'http://192.168.0.210:4747/video'  # Using the specified IP address for DroidCam
+    camera_url = 'http://<IP ADDRESS PROVIDED BY DROIDCAM>/video'  # Using the specified IP address for DroidCam
     cap = cv2.VideoCapture(camera_url)
 
     while True:
